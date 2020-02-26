@@ -1,0 +1,38 @@
+{
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "spec",
+    "test",
+    "node_modules",
+    "src/**/*.test.ts",
+    "src/**/*.spec.ts",
+    "src/**/*.sample.ts",
+    "src/**/sample.ts",
+    "src/**/*.example.ts"
+  ],
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "lib": [
+      "es6",
+      "es2017",
+      "dom"
+    ],
+    "jsx": "react",
+    "removeComments": true,
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": false,
+    "noImplicitAny": true,
+    "strictNullChecks": false,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": false,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true
+  }
+}

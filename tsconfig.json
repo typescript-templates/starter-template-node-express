@@ -13,6 +13,7 @@
     "src/**/*.example.ts"
   ],
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "ES6",
     "module": "CommonJS",
     "lib": [
@@ -26,10 +27,7 @@
     "sourceMap": true,
     "outDir": "dist",
     "rootDir": "src",
-    "strict": false,
-    "noImplicitAny": true,
-    "strictNullChecks": false,
-    "strictFunctionTypes": true,
+    "strict": true,
     "strictPropertyInitialization": false,
     "noImplicitThis": true,
     "alwaysStrict": true,

@@ -1,9 +1,9 @@
 import { Router } from "express";
-import * as homeController from "../../controllers/home";
+import { HomeController } from "../../controllers/HomeController";
 
 const AppRoutes = Router();
 
 // Home
-AppRoutes.route("/").get(homeController.index);
+AppRoutes.route("/").get(HomeController.index);
 
 export default AppRoutes;
